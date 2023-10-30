@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+body{
+	background-image: linear-gradient(#636162, #b1afaf); /*Гардиент для заднего фона на всей страничке*/
+	height: 122vh;
+	font-weight: bold;
+	letter-spacing: 2px;
+}
+*{
+	margin: 0px; padding: 0px; font-family: 'Montserrat', sans-serif;/*Стили шрифта*/
+}
+.main{ /*весь фон резюме*/
+	background-color: #ffffff;
+	height: auto;
+	width: 650px;
+	position: absolute;
+	transform: translate(-50%, -50%);
+	left: 50%;
+	top: 60%;
+}
+.left{/*левая синяя часть*/
+	background-color: #174bda;
+	width: 200px;
+	height: 1104px;
+	float: left;
+}
+.right{/*правая белая часть*/
+	width: 450px;
+	float: left;
+}
+
+.profile-img img{ /*фото профиля*/
+	width: 150%;
+	border-radius: 50%;
+}
+.box-1{
+	position: relative;
+}
+.heading{ /*голова*/
+	background-color: #174bda;
+	color: #ffffff;
+	text-align: left;
+	font-size: large;
+	padding-left: 20px;
+}
+.p1{/*подтексты*/
+	padding: 9px 10px;
+	font-size: 8px;
+	color: white;
+}
+.icons1{
+	font-size: 16px!important;
+	padding-right: 10px!important;
+	vertical-align: sub;
+}
+.icons2{
+	padding: 18px 10px;
+}
+.name-div{ /*заглавная*/
+	padding: 86px 0px 60px 55px;
+	text-align: left;
+	font-style: normal;
+	color: #174bda;
+	letter-spacing: 3px;
+}
+.name-div h1{
+	margin-bottom: 10px;
+}
+.box-2{
+	padding: 0px 50px;
+	margin-top: 30px;
+}
+.p2{
+	font-size: 10px;
+	color: #174bda;
+	font-weight: 300;
+	letter-spacing: 1px;
+	word-spacing: 2px;
+	line-height: 18px;
+	margin-top: 5px;
+}
+h2{
+	font-size: 20px;
+	color: #174bda;
+	margin-bottom: 15px;
+}
+
+
+.p3 span{
+	color: #174bda; padding-left: 20px;
+}
